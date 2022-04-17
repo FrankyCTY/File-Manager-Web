@@ -1,18 +1,20 @@
 /* eslint-env node */
-require('@rushstack/eslint-patch/modern-module-resolution');
+require('@rushstack/eslint-patch/modern-module-resolution')
 
 module.exports = {
   root: true,
   extends: [
     'plugin:vue/vue3-essential',
     'eslint:recommended',
+    'prettier',
     '@vue/eslint-config-typescript/recommended',
     '@vue/eslint-config-prettier',
   ],
   rules: {
     'vue/multi-word-component-names': 0,
+    'prettier/prettier': 0,
   },
   env: {
     'vue/setup-compiler-macros': true,
   },
-};
+}
