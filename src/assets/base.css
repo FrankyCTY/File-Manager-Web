@@ -1,50 +1,4 @@
-@font-face {
-  font-family: 'Google Sans';
-  font-weight: 400;
-  font-display: auto;
-  src: url('../assets/fonts/ProductSans/ProductSans-Regular.ttf')
-    format('truetype');
-}
-
-@font-face {
-  font-family: 'Google Sans';
-  font-weight: 500;
-  font-display: auto;
-  src: url('../assets/fonts/ProductSans/ProductSans-Medium.ttf')
-    format('truetype');
-}
-
-@font-face {
-  font-family: 'Google Sans';
-  font-weight: 700;
-  font-display: auto;
-  src: url('../assets/fonts/ProductSans/ProductSans-Bold.ttf')
-    format('truetype');
-}
-
-@font-face {
-  font-family: 'Google Sans';
-  font-weight: 800;
-  font-display: auto;
-  src: url('../assets/fonts/ProductSans/ProductSans-Black.ttf')
-    format('truetype');
-}
-
-@font-face {
-  font-family: 'Google Sans';
-  font-weight: 300;
-  font-display: auto;
-  src: url('../assets/fonts/ProductSans/ProductSans-Light.ttf')
-    format('truetype');
-}
-
-@font-face {
-  font-family: 'Google Sans';
-  font-weight: 200;
-  font-display: auto;
-  src: url('../assets/fonts/ProductSans/ProductSans-Thin.ttf')
-    format('truetype');
-}
+@import './fonts/ProductSans/productSans.css';
 
 :root {
   --clr-gray-300: #dadce0;
@@ -95,7 +49,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  padding-top: 2rem;
 }
 
 /* ======================== Utility classes ======================== */

@@ -16,6 +16,7 @@ import PlusIcon from '@/components/icons/Plus.vue'
   border-bottom: 1px solid var(--clr-gray-300);
   justify-content: space-between;
   padding-inline: 5%;
+  padding-top: 2rem;
   padding-bottom: 0.6rem;
 }
 
