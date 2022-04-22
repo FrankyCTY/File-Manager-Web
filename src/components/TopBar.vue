@@ -35,6 +35,7 @@ import PlusIcon from '@/components/icons/Plus.vue'
   box-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.25);
   padding-inline: 1rem;
   padding-block: 0.6rem;
+  cursor: pointer;
 }
 
 .plus-icon {
