@@ -4,7 +4,7 @@ import FolderIcon from '@/components/icons/Folder.vue'
 
 <template>
   <div>
-    <div class="container hover:bg-gray-200 cursor-pointer">
+    <div class="container hover:bg-gray-100 cursor-pointer">
       <FolderIcon class="folder-icon" />
       <span><slot></slot></span>
     </div>

@@ -7,7 +7,7 @@ import PlusIcon from '@/components/icons/Plus.vue'
   <div>
     <div class="wrapper">
       <button
-        class="create-file-btn h-[230px] flex w-full items-center justify-center"
+        class="create-file-btn h-[230px] flex w-full items-center justify-center hover:bg-gray-100"
       >
         <PlusIcon class="plus-icon" />
       </button>
@@ -39,7 +39,6 @@ import PlusIcon from '@/components/icons/Plus.vue'
 }
 
 .create-file-btn {
-  background-color: white;
   border: 1px solid var(--clr-gray-300);
   border-radius: 6px;
   border-style: dashed;
