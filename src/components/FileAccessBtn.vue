@@ -4,7 +4,9 @@ import FileIcon from '@/components/icons/File.vue'
 
 <template>
   <div>
-    <div class="wrapper flex flex-col w-full h-[230px]">
+    <div
+      class="wrapper flex flex-col w-full rounded-[6px] aspect-square h-[230px]"
+    >
       <div class="w-full flex-1 overflow-hidden">
         <img
           alt="file preview image"
@@ -23,8 +25,6 @@ import FileIcon from '@/components/icons/File.vue'
 <style scoped>
 .wrapper {
   border: 1px solid var(--clr-gray-300);
-  border-radius: 6px;
-  aspect-ratio: 1 / 1;
 }
 
 img {
