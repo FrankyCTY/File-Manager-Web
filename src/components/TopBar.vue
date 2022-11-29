@@ -3,10 +3,12 @@ import PlusIcon from '@/components/icons/Plus.vue'
 </script>
 
 <template>
-  <div class="top-bar">
-    <h2 class="path">Home</h2>
+  <div>
+    <div class="top-bar">
+      <h2 class="path">Home</h2>
 
-    <button class="new-item-btn"><PlusIcon class="plus-icon" />New</button>
+      <button class="new-item-btn"><PlusIcon class="plus-icon" />New</button>
+    </div>
   </div>
 </template>
 
@@ -18,6 +20,7 @@ import PlusIcon from '@/components/icons/Plus.vue'
   padding-inline: 5%;
   padding-top: 2rem;
   padding-bottom: 0.6rem;
+  width: 100%;
 }
 
 .path {

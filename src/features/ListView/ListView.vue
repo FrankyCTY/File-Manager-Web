@@ -5,26 +5,24 @@ import TopBar from '@/components/TopBar.vue'
 </script>
 
 <template>
-  <div class="container">
-    <TopBar />
+  <div>
+    <div class="h-screen">
+      <TopBar />
 
-    <div class="content-container">
-      <h3 class="subtitle">Folders</h3>
+      <div class="content-container">
+        <h3 class="subtitle">Folders</h3>
 
-      <ListFolderSection />
+        <ListFolderSection />
 
-      <h3 class="subtitle">Files</h3>
+        <h3 class="subtitle">Files</h3>
 
-      <ListFileSection />
+        <ListFileSection />
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.container {
-  height: 100vh;
-}
-
 .content-container {
   padding-inline: 5%;
   padding-block: 2rem;

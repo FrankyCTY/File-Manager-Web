@@ -4,21 +4,37 @@ import PlusIcon from '@/components/icons/Plus.vue'
 </script>
 
 <template>
-  <div class="a625c8b3db294c8e295832e06-container">
-    <button class="create-file-btn">
-      <PlusIcon class="plus-icon" />
-    </button>
-    <FileAccessBtn>File</FileAccessBtn>
-    <FileAccessBtn>File</FileAccessBtn>
+  <div>
+    <div class="wrapper">
+      <button
+        class="create-file-btn h-[230px] flex w-full items-center justify-center"
+      >
+        <PlusIcon class="plus-icon" />
+      </button>
+      <FileAccessBtn>File</FileAccessBtn>
+      <FileAccessBtn>File</FileAccessBtn>
+      <FileAccessBtn>File</FileAccessBtn>
+      <FileAccessBtn>File</FileAccessBtn>
+      <FileAccessBtn>File</FileAccessBtn>
+      <FileAccessBtn>File</FileAccessBtn>
+      <FileAccessBtn>File</FileAccessBtn>
+      <FileAccessBtn>File</FileAccessBtn>
+      <FileAccessBtn>File</FileAccessBtn>
+      <FileAccessBtn>File</FileAccessBtn>
+      <FileAccessBtn>File</FileAccessBtn>
+      <FileAccessBtn>File</FileAccessBtn>
+      <FileAccessBtn>File</FileAccessBtn>
+      <FileAccessBtn>File</FileAccessBtn>
+    </div>
   </div>
 </template>
 
 <style scoped>
-.a625c8b3db294c8e295832e06-container {
+.wrapper {
   display: grid;
   width: 100%;
+  gap: 2.5rem;
   grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
-  gap: 1rem;
   justify-content: center;
 }
 

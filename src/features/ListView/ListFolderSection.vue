@@ -3,27 +3,28 @@ import FolderAccessBtn from '@/components/FolderAccessBtn.vue'
 </script>
 
 <template>
-  <div class="a625c8a86c8391365af4fbe90-container">
-    <FolderAccessBtn>Folder</FolderAccessBtn>
-    <FolderAccessBtn>Folder</FolderAccessBtn>
+  <div>
+    <div class="container">
+      <FolderAccessBtn>Folder</FolderAccessBtn>
+      <FolderAccessBtn>Folder</FolderAccessBtn>
+    </div>
   </div>
 </template>
 
 <style scoped>
-.a625c8a86c8391365af4fbe90-container {
+.container {
   display: flex;
   overflow-x: scroll;
   width: 100%;
   gap: 1rem;
   padding-bottom: 1rem;
   -ms-overflow-style: none;
-  overflow-y: scroll;
+  overflow-y: auto;
   scrollbar-width: none;
-
   margin-bottom: 1rem;
 }
 
-.a625c8a86c8391365af4fbe90-container::-webkit-scrollbar {
+.container::-webkit-scrollbar {
   display: none;
 }
 

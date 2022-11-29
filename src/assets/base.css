@@ -1,11 +1,19 @@
 @import './fonts/ProductSans/productSans.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .show-box {
+    border: 1px solid red;
+  }
+}
 
 :root {
   --clr-gray-300: #dadce0;
   --clr-gray-600: #5f6368;
   --clr-gray-800: rgba(0, 0, 0, 0.72);
   --clr-gray-900: #3c4043;
-
   --clr-green-500: #4ecb71;
 }
 
@@ -48,10 +56,4 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-}
-
-/* ======================== Utility classes ======================== */
-.show-box {
-  border: 1px solid red !important;
 }

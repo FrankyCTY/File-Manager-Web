@@ -1,11 +1,13 @@
 <script setup lang="ts">
-import FolderIcon from '@/components/icons/Folder.vue';
+import FolderIcon from '@/components/icons/Folder.vue'
 </script>
 
 <template>
-  <div class="container">
-    <FolderIcon class="folder-icon" />
-    <span><slot></slot></span>
+  <div>
+    <div class="container hover:bg-gray-200 cursor-pointer">
+      <FolderIcon class="folder-icon" />
+      <span><slot></slot></span>
+    </div>
   </div>
 </template>
 

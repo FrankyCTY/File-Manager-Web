@@ -1,5 +1,5 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import ListView from '@/features/ListView';
+import { createRouter, createWebHistory } from 'vue-router'
+import ListView from '@/features/ListView'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -10,6 +10,6 @@ const router = createRouter({
       component: ListView,
     },
   ],
-});
+})
 
-export default router;
+export default router
