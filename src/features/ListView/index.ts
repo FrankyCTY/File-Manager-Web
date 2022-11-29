@@ -1,3 +1,3 @@
-import ListView from './ListView.vue';
+import ListView from './ListView.vue'
 
-export default ListView;
+export default ListView

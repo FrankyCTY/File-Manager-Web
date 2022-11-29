@@ -6,10 +6,10 @@ import TopBar from '@/components/TopBar.vue'
 
 <template>
   <div>
-    <div class="h-screen">
+    <div class="h-screen flex flex-col">
       <TopBar />
 
-      <div class="content-container">
+      <div class="content-container overflow-auto flex-1">
         <h3 class="subtitle">Folders</h3>
 
         <ListFolderSection />
